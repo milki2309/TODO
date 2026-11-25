@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="Todo">
+      <div class="todo__cont">
+        <h1 class="todo__title">TODO LIST</h1>
+
+        <div class="todo__filters">
+          <input type="text" class="searchTask" placeholder="search" />
+
+          <select class="sortTasks">
+            <option value="ALL">--ALL--</option>
+            <option value="Completed">Completed</option>
+            <option value="notCompleted">notCompleted</option>
+          </select>
+        </div>
+
+        <div class="tasks">
+          <div class="task">
+            <input type="checkbox" class="task__checkbox" />
+            <h3 class="task__name">TASK1</h3>
+            <img src="korzina.png" alt="trash" class="task__del" />
+          </div>
+        </div>
+        <button class="task__add">+</button>
+      </div>
+    </section>
+    <script src="index2.js"></script>
+  </body>
+</html>
